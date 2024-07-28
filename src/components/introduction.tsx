@@ -1,11 +1,12 @@
 import Hero from "./hero";
 import MyPicture from "./myPicture";
+import Container from "./container";
 
 const Introduction = () => (
-  <section className="flex py-24 px-8">
+  <Container className="flex gap-x-12">
     <Hero />
-    <MyPicture />
-  </section>
+    <MyPicture className="w-1/3" />
+  </Container>
 );
 
 export default Introduction;
