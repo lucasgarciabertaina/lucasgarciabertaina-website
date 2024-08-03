@@ -3,6 +3,7 @@ import Header from "@/components/header";
 import Introduction from "@/components/introduction";
 import About from "@/components/about";
 import Skills from "@/components/skills";
+import Experiences from "../components/experiences";
 
 export const metadata: Metadata = {
   title: "Lucas Garcia Bertaina | Backend Developer",
@@ -15,6 +16,7 @@ export default function Home() {
       <Introduction />
       <About />
       <Skills />
+      <Experiences />
     </main>
   );
 }
