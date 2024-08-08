@@ -2,7 +2,7 @@ import Logo from "./Logo";
 import Nav from "./Nav";
 
 const Header = () => (
-  <header className="h-20 pl-20 pr-8 flex items-center justify-between">
+  <header className="z-50 bg-white bg-opacity-90 fixed top-0 left-0 w-full h-20 px-12 flex items-center justify-between border-b-2 border-white">
     <Logo />
     <Nav />
   </header>
