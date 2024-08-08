@@ -1,9 +1,9 @@
-import Title from "./Title";
-import Container from "./container";
-import SubTitle from "./subTitle";
-import Email from "./email";
-import PhoneNumber from "./phoneNumber";
-import Platforms from "./platforms";
+import Title from "@/components/ui/Title";
+import Container from "@/components/ui/Container";
+import SubTitle from "@/components/ui/SubTitle";
+import Email from "@/components/sections/GetInTouchSection/Email";
+import PhoneNumber from "@/components/sections/GetInTouchSection/PhoneNumber";
+import Platforms from "@/components/sections/GetInTouchSection/Platforms";
 
 const GetInTouchSection = () => (
   <Container className="flex flex-col items-center">

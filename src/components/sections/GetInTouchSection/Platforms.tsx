@@ -1,4 +1,4 @@
-import SocialNetworks from "./socialNetworks";
+import SocialNetworks from "@/components/ui/SocialNetworks";
 
 const Platforms = () => (
   <>

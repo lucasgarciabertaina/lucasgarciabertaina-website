@@ -1,4 +1,4 @@
-import Paragraph from "./paragraph";
+import Paragraph from "@/components/ui/Paragraph";
 
 const AboutDescription = () => (
   <div className="w-1/2">

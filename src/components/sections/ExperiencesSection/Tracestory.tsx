@@ -1,4 +1,5 @@
-import Bulleted from "./bulleted";
+import Bulleted from "@/components/ui/BulletedItem";
+
 const Tracestory = () => (
   <div className="mt-12 p-8 w-3/4 bg-white mx-auto grid grid-cols-3 grid-rows-1">
     <img src="./logo-upwork.png" alt="logo" className="w-12 h-12" />

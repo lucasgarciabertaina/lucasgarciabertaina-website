@@ -1,7 +1,7 @@
-import Title from "./Title";
-import Container from "./container";
-import SubTitle from "./subTitle";
-import Testimonials from "./Testimonials";
+import Title from "@/components/ui/Title";
+import Container from "@/components/ui/Container";
+import SubTitle from "@/components/ui/SubTitle";
+import Testimonials from "@/components/sections/TestimonialsSection/Testimonials";
 
 const TestimonialsSection = () => (
   <Container className="bg-gray-50">

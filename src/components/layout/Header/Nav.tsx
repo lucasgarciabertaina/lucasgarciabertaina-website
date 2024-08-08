@@ -1,6 +1,6 @@
 import links from "@/utils/navLinks";
-import Link from "./link";
-import Button from "./button";
+import Link from "@/components/layout/Header/Link";
+import Button from "@/components/ui/Button";
 
 const Nav = () => (
   <nav>

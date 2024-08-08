@@ -1,4 +1,4 @@
-import Contact from "./contact";
+import Contact from "@/components/ui/Contact";
 import { Mail } from "lucide-react";
 
 const Email = () => (

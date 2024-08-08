@@ -1,12 +1,10 @@
 import { Metadata } from "next";
-import Header from "@/components/header";
-import Introduction from "@/components/introduction";
-import About from "@/components/about";
-import Skills from "@/components/skills";
-import Experiences from "../components/experiences";
-import TestimonialsSection from "@/components/TestimonialsSection";
-import GetInTouchSection from "@/components/GetInTouchSection";
-import Footer from "@/components/footer";
+import IntroductionSection from "@/components/sections/IntroductionSection";
+import AboutSection from "@/components/sections/AboutSection";
+import SkillsSection from "@/components/sections/SkillsSection";
+import ExperiencesSection from "@/components/sections/ExperiencesSection";
+import TestimonialsSection from "@/components/sections/TestimonialsSection";
+import GetInTouchSection from "@/components/sections/GetInTouchSection";
 
 export const metadata: Metadata = {
   title: "Lucas Garcia Bertaina | Backend Developer",
@@ -15,14 +13,12 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
-      <Header />
-      <Introduction />
-      <About />
-      <Skills />
-      <Experiences />
+      <IntroductionSection />
+      <AboutSection />
+      <SkillsSection />
+      <ExperiencesSection />
       <TestimonialsSection />
       <GetInTouchSection />
-      <Footer />
     </main>
   );
 }

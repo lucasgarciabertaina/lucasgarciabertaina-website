@@ -1,4 +1,4 @@
-import Testimonial from "./Testimonial";
+import Testimonial from "@/components/sections/TestimonialsSection/Testimonial";
 
 const Testimonials = () => (
   <div className="pt-12 grid grid-cols-3 grid-rows-1 gap-x-12">

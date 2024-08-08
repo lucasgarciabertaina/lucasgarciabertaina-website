@@ -1,4 +1,4 @@
-import Tool from "./tool";
+import Tool from "@/components/ui/Tool";
 
 const Tools = () => (
   <div className="pt-12 grid grid-cols-8 grid-rows-auto gap-y-8">

@@ -1,6 +1,6 @@
-import LocationAndAvailability from "./locationAndAvailability";
-import SocialNetworks from "./socialNetworks";
-import Paragraph from "./paragraph";
+import LocationAndAvailability from "@/components/sections/IntroductionSection/LocationAndAvailability";
+import SocialNetworks from "@/components/ui/SocialNetworks";
+import Paragraph from "@/components/ui/Paragraph";
 
 const Hero = () => (
   <div className="w-2/3">
