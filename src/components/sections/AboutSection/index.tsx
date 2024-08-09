@@ -5,7 +5,7 @@ import AboutDescription from "@/components/sections/AboutSection/AboutDescriptio
 
 const AboutSection = () => (
   <Container className="bg-gray-50">
-    <Title>About me</Title>
+    <Title id="about">About me</Title>
     <div className="flex gap-x-12 py-12 justify-between">
       <AboutMePicture />
       <AboutDescription />

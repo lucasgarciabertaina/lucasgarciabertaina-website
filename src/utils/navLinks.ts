@@ -1,14 +1,14 @@
 export default [
   {
     innerText: "About",
-    href: "",
+    href: "#about",
   },
   {
     innerText: "Testimonials",
-    href: "",
+    href: "#testimonials",
   },
   {
     innerText: "Contact",
-    href: "",
+    href: "#contact",
   },
 ];

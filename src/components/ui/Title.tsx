@@ -1,13 +1,17 @@
 import React, { ReactNode } from "react";
 
 interface TitleProps {
+  id?: string;
   children: ReactNode;
 }
 
 const Title: React.FC<TitleProps> = (props) => (
-  <button className="block text-sm px-6 py-1 bg-gray-200 font-medium text-gray-600 rounded-2xl mx-auto">
+  <h2
+    id={props.id}
+    className="w-fit mx-auto text-sm px-6 py-1 bg-gray-200 font-medium text-gray-600 rounded-2xl"
+  >
     {props.children}
-  </button>
+  </h2>
 );
 
 export default Title;

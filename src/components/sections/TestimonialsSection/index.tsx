@@ -5,7 +5,7 @@ import Testimonials from "@/components/sections/TestimonialsSection/Testimonials
 
 const TestimonialsSection = () => (
   <Container className="bg-gray-50">
-    <Title>Testimonials</Title>
+    <Title id="testimonials">Testimonials</Title>
     <SubTitle>Nice things people have said about me:</SubTitle>
     <Testimonials />
   </Container>
