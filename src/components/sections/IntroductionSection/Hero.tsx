@@ -8,12 +8,13 @@ const Hero = () => (
       Hi, I’m Lucas <span className="align-text-top">👋</span>
     </h1>
     <Paragraph className="pt-2 text-gray-600">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet
-      finibus sem, at eleifend metus malesuada volutpat. Vestibulum pretium sem
-      arcu, eu sagittis dolor ornare vel. Quisque vitae mauris leo. Aenean
-      mollis tristique arcu id accumsan. Nunc luctus hendrerit consectetur.
-      Maecenas lobortis nibh et nibh eleifend congue. Sed iaculis felis ipsum, a
-      accumsan mi molestie quis. Proin a ultrices neque.
+      I'm a backend developer with frontend experience, specializing in Vue and
+      primarily Node.js. Every day, I enjoy learning something new in the
+      exciting world of IT, even after over four years in the industry.
+    </Paragraph>
+    <Paragraph className="pt-2 text-gray-600">
+      My commitment to enhancing my professional skills and improving code
+      quality drives me daily.
     </Paragraph>
     <LocationAndAvailability />
     <SocialNetworks />
