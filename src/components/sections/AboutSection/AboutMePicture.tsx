@@ -5,7 +5,7 @@ const AboutMePicture = () => (
     <div className="flex justify-center md:order-first md:justify-end">
       <div className="relative h-[380px] w-[320px] md:h-[460px] md:w-[380px] lg:h-[520px] lg:w-[440px]">
         <Image
-          src="/pepe.JPEG"
+          src="/aboutMe.JPEG"
           alt="About Lucas"
           width={280}
           height={360}

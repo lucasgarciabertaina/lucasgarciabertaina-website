@@ -1,8 +1,9 @@
 import Bulleted from "@/components/ui/BulletedItem";
+import Image from "next/image";
 
 const Tracestory = () => (
   <div className="mt-12 p-8 w-3/4 bg-white mx-auto grid grid-cols-3 grid-rows-1">
-    <img src="./tracestory.svg" alt="logo" />
+    <Image src="/tracestory.svg" alt="logo" height={24} width={128} />
     <div>
       <h4 className="text-gray-900 text-xl font-semibold pb-4">
         Fullstack Developer

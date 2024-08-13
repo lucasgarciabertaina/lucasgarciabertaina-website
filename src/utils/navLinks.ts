@@ -1,4 +1,4 @@
-export default [
+const links = [
   {
     innerText: "About",
     href: "#about",
@@ -12,3 +12,5 @@ export default [
     href: "#contact",
   },
 ];
+
+export default links;

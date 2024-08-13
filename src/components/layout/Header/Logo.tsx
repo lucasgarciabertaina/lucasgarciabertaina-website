@@ -1,6 +1,8 @@
+import Image from "next/image";
+
 const Logo = () => (
-  <a href="#">
-    <img src="/logo.svg" alt="logo" />
+  <a href="/">
+    <Image src="logo.svg" alt="logo" width={51} height={52} />
   </a>
 );
 

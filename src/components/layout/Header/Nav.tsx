@@ -17,7 +17,9 @@ const downloadResume = () => {
 const Nav = () => (
   <nav>
     {links.map(({ innerText, href }) => (
-      <Link href={href}>{innerText}</Link>
+      <Link href={href} key={innerText}>
+        {innerText}
+      </Link>
     ))}
     <Button onClick={downloadResume}>Download CV</Button>
   </nav>
