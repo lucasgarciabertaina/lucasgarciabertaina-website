@@ -3,30 +3,37 @@ import Testimonial from "@/components/sections/TestimonialsSection/Testimonial";
 const Testimonials = () => (
   <div className="pt-12 grid grid-cols-3 grid-rows-1 gap-x-12">
     <Testimonial
-      image="javascript.svg"
-      testimonialFullName="John Doe"
-      currentRole="Founder - xyz.com"
+      image="federico.jpeg"
+      testimonialFullName="Federico Herrera"
+      currentRole="Project Manager - tracestory.com"
     >
-      “Job well done! I am really impressed. He is very very good at what he
-      does:) I would recommend Sagar and will rehire in the future for Frontend
-      development.”
+      “During his time at Tracestory, Lucas demonstrated a great capacity for
+      learning and adaptation, both to the different tasks requested and to the
+      needs and challenges linked to the product. At all times he was committed
+      to the team and to maintaining a high standard in his results.”
     </Testimonial>
     <Testimonial
-      image="javascript.svg"
-      testimonialFullName="John Doe"
-      currentRole="Founder - abc.com"
+      image="nicolas.jpeg"
+      testimonialFullName="Nicolas Santa"
+      currentRole="Chief Technology Officer, Co-Founder - tracestory.com"
     >
-      “Great guy, highly recommended for any COMPLEX front-end development job!
-      His skills are top-notch and he will be an amazing addition to any team.”
+      “Lucas is an incredible young professional. He has demonstrated that he
+      can overcome any obstacle by utilizing his heuristics. He is also a
+      self-managed, pragmatic, intelligent, hardworking, and thoughtful software
+      engineer. I highly recommend working with him and hope to work with him
+      soon.”
     </Testimonial>
+
     <Testimonial
-      image="javascript.svg"
-      testimonialFullName="John Doe"
-      currentRole="Freelancer"
+      image="richard.jpeg"
+      testimonialFullName="Richard Reynolds"
+      currentRole="Digital Product Designer & Web Developer"
     >
-      “Sagar was extremely easy and pleasant to work with and he truly cares
-      about the project being a success. Sagar has a high level of knowledge and
-      was able to work on my MERN stack application without any issues.”
+      "I had the opportunity to work with Lucas for a short time, but it was
+      enough to recognize his strong skills as a developer and his
+      problem-solving abilities. He is very easy to work with and proactive in
+      finding solutions. It was a great experience, and I would highly recommend
+      him."
     </Testimonial>
   </div>
 );

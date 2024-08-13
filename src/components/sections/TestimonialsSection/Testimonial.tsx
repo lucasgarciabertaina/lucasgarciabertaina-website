@@ -8,8 +8,12 @@ interface TestimonialProps {
 }
 
 const Testimonial: React.FC<TestimonialProps> = (props) => (
-  <div className="flex flex-col rounded-md bg-white p-12">
-    <img src={props.image} alt="picture-testimonial" className="h-16" />
+  <div className="flex flex-col rounded-md bg-white p-12 items-center">
+    <img
+      src={props.image}
+      alt="picture-testimonial"
+      className="h-16 w-16 rounded-full"
+    />
     <p className="text-gray-600 text-base font-normal text-left py-6">
       {props.children}
     </p>
