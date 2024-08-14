@@ -22,4 +22,4 @@ $ npm run dev
 
 ## License
 
-Licensed under the [MIT license](https://github.com/lucasgarciabertaina/lucasgarciabertaina-website/blob/main/LICENCE).
+Licensed under the [MIT license](https://github.com/lucasgarciabertaina/lucasgarciabertaina-website/blob/main/LICENSE).
