@@ -3,6 +3,7 @@
 import links from "@/utils/navLinks";
 import Link from "@/components/layout/Header/Link";
 import Button from "@/components/ui/Button";
+import BurgerMenu from "./BurgerMenu";
 
 const downloadResume = () => {
   const pdfUrl = "./lucasGarcia_CV.pdf";
@@ -21,7 +22,10 @@ const Nav = () => (
         {innerText}
       </Link>
     ))}
-    <Button onClick={downloadResume}>Download CV</Button>
+    <Button className="hidden lg:inline-block" onClick={downloadResume}>
+      Download CV
+    </Button>
+    <BurgerMenu />
   </nav>
 );
 
