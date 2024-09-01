@@ -1,15 +1,16 @@
 import React, { useState } from "react";
+import useBurgerMenu from "@/app/hooks/useBurgerMenu";
 
-const BurgerMenu = () => {
-  const [isOpen, setIsOpen] = useState(false);
+interface BurgerMenuProps {
+  onClick?: (message: string) => void;
+}
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
+const BurgerMenu: React.FC<BurgerMenuProps> = (props) => {
+  const { isOpen, open, close } = useBurgerMenu();
 
   return (
     <button
-      onClick={toggleMenu}
+      onClick={isOpen ? close : open}
       className="sm:block md:hidden focus:outline-none"
     >
       <div
