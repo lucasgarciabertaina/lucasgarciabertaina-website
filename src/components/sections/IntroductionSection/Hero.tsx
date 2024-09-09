@@ -1,13 +1,18 @@
 import LocationAndAvailability from "@/components/sections/IntroductionSection/LocationAndAvailability";
 import SocialNetworks from "@/components/ui/SocialNetworks";
 import Paragraph from "@/components/ui/Paragraph";
+import React from "react";
 
-const Hero = () => (
-  <div className="w-2/3">
-    <h1 className="text-gray-900 font-bold text-6xl	leading-[72px] -tracking-2">
+interface HeroProps {
+  className: string;
+}
+
+const Hero: React.FC<HeroProps> = (props) => (
+  <div className={`${props.className}`}>
+    <h1 className="text-gray-900 font-bold text-4xl md:text-6xl	leading-10 md:leading-[72px] -tracking-2">
       Hi, I&apos;m Lucas <span className="align-text-top">👋</span>
     </h1>
-    <Paragraph className="pt-2 text-gray-600">
+    <Paragraph className="pt-3 text-gray-600">
       I&apos;m a backend developer with frontend experience, specializing in Vue
       and primarily Node.js. Every day, I enjoy learning something new in the
       exciting world of IT, even after over four years in the industry.

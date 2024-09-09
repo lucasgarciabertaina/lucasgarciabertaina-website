@@ -48,7 +48,7 @@ const Nav = () => {
       <div
         className={
           isMobileMenuOpen
-            ? `absolute top-[4.85rem] right-0 w-full h-screen bg-white flex flex-col items-center md:w-auto md:bg-red-500`
+            ? `absolute top-[4.85rem] right-0 container max-w-full h-screen bg-white flex flex-col items-center md:w-auto md:bg-red-500`
             : ""
         }
       >
