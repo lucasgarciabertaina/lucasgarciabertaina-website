@@ -1,7 +1,7 @@
 import Testimonial from "@/components/sections/TestimonialsSection/Testimonial";
 
 const Testimonials = () => (
-  <div className="pt-12 grid grid-cols-3 grid-rows-1 gap-x-12">
+  <div className="pt-6 md:pt-12 grid md:grid-cols-3 grid-rows-1 gap-x-12 gap-y-12">
     <Testimonial
       image="federico.jpeg"
       testimonialFullName="Federico Herrera"

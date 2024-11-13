@@ -1,7 +1,7 @@
 import Paragraph from "@/components/ui/Paragraph";
 
 const AboutDescription = () => (
-  <div className="w-1/2">
+  <div className="pt-4 md:w-1/2">
     <h2 className="font-semibold text-3xl -tracking-2 text-gray-900">
       Curious about me? Here you have it:
     </h2>
