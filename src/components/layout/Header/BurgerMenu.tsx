@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import useBurgerMenu from "@/app/hooks/useBurgerMenu";
 
 interface BurgerMenuProps {
   isOpen: boolean;
