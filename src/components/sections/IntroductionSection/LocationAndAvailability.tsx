@@ -3,7 +3,7 @@ import { Circle } from "lucide-react";
 
 const LocationAndAvailability = () => (
   <div className="py-12">
-    <Item innerText="Margaret River, Australia">
+    <Item innerText="Málaga, Spain">
       <MapPin className="mr-2" color="#4b5563" size={24} />
     </Item>
     <Item innerText="Available for new projects">
