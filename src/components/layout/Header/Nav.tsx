@@ -23,7 +23,7 @@ const Nav = () => {
     setIsMobileMenuOpen(isBurgerOpen);
   };
 
-  const MOBILE_BREAKPOINT: number = 640;
+  const MOBILE_BREAKPOINT: number = 768;
   const [isMobile, setIsMobile] = useState(
     window.innerWidth < MOBILE_BREAKPOINT
   );

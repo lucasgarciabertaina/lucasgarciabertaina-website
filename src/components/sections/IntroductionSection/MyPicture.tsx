@@ -18,11 +18,13 @@ const MyPicture: React.FC<MyPictureProps> = (props) => (
         className="absolute z-10 h-[280px] w-[240px] border-8 border-gray max-md:left-5 md:left-0 md:top-0 md:h-[320px] md:w-[280px]"
         style={{ objectFit: "cover" }}
       ></Image>
-      <div
-        className="absolute z-10 h-[280px] w-[240px] border-8 border-gray max-md:left-5 md:left-0 md:top-0 md:h-[320px] md:w-[280px]"
-        style={{ objectFit: "cover" }}
-      ></div>
       <div className="absolute h-[280px] w-[280px] border-8 border-transparent bg-gray-200 max-md:top-5 md:bottom-0 md:right-0 md:h-[320px] md:w-[280px]"></div>
+      <div
+        className="absolute z-10 h-[280px] w-[240px] border-8 border-white max-md:left-5 md:left-0 md:top-0 md:h-[320px] md:w-[280px]"
+        style={{ objectFit: "cover" }}
+      >
+        {" "}
+      </div>
     </div>
   </div>
 );
